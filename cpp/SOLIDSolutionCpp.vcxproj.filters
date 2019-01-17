@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{d34b2231-6040-4008-aa2b-211ab7e7cbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Rules">
+      <UniqueIdentifier>{794a4ee4-0e3b-4ad5-8548-43cd7ea5270a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Universities">
+      <UniqueIdentifier>{740df338-9d61-496f-a5f1-5fbc5e4aa151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Students">
+      <UniqueIdentifier>{982fa778-3502-4b03-b903-b4a7da90fa9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Exceptions">
+      <UniqueIdentifier>{a8aa8d88-228d-4d4d-bf8b-a8efb91e075c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="BookAllowanceSetter.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageType.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Rules\IAllowanceRule.h">
+      <Filter>Code\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\InvalidEmail.h">
+      <Filter>Code\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\NotImplemented.h">
+      <Filter>Code\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Rules\PremiumAllowanceRule.h">
+      <Filter>Code\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Rules\StandardAllowanceRule.h">
+      <Filter>Code\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\Student.h">
+      <Filter>Code\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\StudentRepository.h">
+      <Filter>Code\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\StudentService.h">
+      <Filter>Code\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Universities\University.h">
+      <Filter>Code\Universities</Filter>
+    </ClInclude>
+    <ClInclude Include="Universities\UniversityRepository.h">
+      <Filter>Code\Universities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="BookAllowanceSetter.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\PremiumAllowanceRule.cpp">
+      <Filter>Code\Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules\StandardAllowanceRule.cpp">
+      <Filter>Code\Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\Student.cpp">
+      <Filter>Code\Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\StudentRepository.cpp">
+      <Filter>Code\Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\StudentService.cpp">
+      <Filter>Code\Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Universities\University.cpp">
+      <Filter>Code\Universities</Filter>
+    </ClCompile>
+    <ClCompile Include="Universities\UniversityRepository.cpp">
+      <Filter>Code\Universities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
